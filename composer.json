@@ -1,0 +1,23 @@
+{
+    "name": "vanessa/pqrs",
+    "description": "proyecto abierto para PQRS",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vanessa",
+            "email": "gra029801@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "APP\\": "app/",
+            "Config\\": "config/",
+            "View\\": "resource/",
+            "Base\\": "src/"
+        }
+    }
+}
